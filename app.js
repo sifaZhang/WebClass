@@ -11,8 +11,9 @@ app.use(express.static('public'));
 
 app.get("/",(req, res, next) => {
     console.log("I have received a express.request");
-    let html = ejs.render("homepage.ejs");
-        res.send(html);
+    //let html = ejs.render('homepage.ejs');
+        //res.send(html);
+        res.render('homepage');
 });
 
 app.get("/welcome",(req, res, next) => {

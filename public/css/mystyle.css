@@ -16,7 +16,7 @@ header {
     display: block; 
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url('./public/images/3.jpg');
+    background-image: url('../images/3.jpg');
     background-size: contain;
     background-position: 0 0;
 }
