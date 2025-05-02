@@ -1,0 +1,4 @@
+CREATE TABLE `users`.`users` (`ID` VARCHAR(300) NOT NULL , `name` VARCHAR(300) NOT NULL , `email` VARCHAR(300) NOT NULL , `password` VARCHAR(40) NOT NULL , `phonenumber` INT(20) NOT NULL , `role` VARCHAR(100) NOT NULL ) ENGINE = InnoDB;
+
+ALTER TABLE `users`.`users` ADD UNIQUE `ID` (`ID`);
+ALTER TABLE `users` CHANGE `ID` `ID` INT NOT NULL;

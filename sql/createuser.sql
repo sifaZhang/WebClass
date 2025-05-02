@@ -1,0 +1,1 @@
+INSERT INTO `users` (`ID`, `name`, `email`, `password`, `phonenumber`, `role`) VALUES ('OOOO1', 'Test USer 1', 'test@test.com', 'Password', '', 'Sys Admin')
